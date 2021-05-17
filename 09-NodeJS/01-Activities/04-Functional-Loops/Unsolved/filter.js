@@ -1,10 +1,6 @@
 const originalArray = [1, 5, 8, 3, 10];
 
-const evenNumbers = originalArray.filter(function(data) {
-  if (data % 2 === 0) {
-    return true;
-  }
-});
+const evenNumbers = originalArray.filter(data => data % 2 === 0);
 
 console.log(originalArray);
 console.log(evenNumbers);
@@ -21,14 +17,15 @@ const isPrime = num => {
 // 1. A filter that runs through the `originalArray` and creates a new array `primeArray` containing only its prime numbers
 // Use the `isPrime` function provided above to help with this
 //
-// YOUR CODE HERE
+const primeArray = originalArray.filter(isPrime);
 //
 console.log(primeArray);
 
 // 2. A filter that runs through the `originalArray` and creates a new array `moreThan5Array` containing only its numbers larger than 5
 //
-// YOUR CODE HERE
+const moreThan5Array = originalArray.filter(num => num > 5);
 //
 console.log(moreThan5Array);
 
 // Bonus: Use arrow functions as callbacks!
+
