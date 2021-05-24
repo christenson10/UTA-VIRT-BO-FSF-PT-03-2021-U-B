@@ -1,7 +1,9 @@
 // Create a constructor function called `Character` that takes in 3 arguments: `name`, `strength`, `hitpoints`
 // YOUR CODE HERE
 //
-
+function Character (name, strength, hitpoints) {
+    
+}
 // Create a prototype method called `printStats()` which prints all of the stats for a character
 // YOUR CODE HERE
 //
