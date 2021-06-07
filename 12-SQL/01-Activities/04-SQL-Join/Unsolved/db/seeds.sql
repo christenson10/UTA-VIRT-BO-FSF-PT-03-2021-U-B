@@ -1,3 +1,4 @@
+-- Adding 
 INSERT INTO prices (price)
 VALUES (1.50),
        (2.75),
