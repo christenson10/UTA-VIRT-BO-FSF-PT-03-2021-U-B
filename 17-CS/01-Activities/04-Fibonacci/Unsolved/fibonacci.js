@@ -1,7 +1,10 @@
 // Linear Approach
 const linear = num => {
   // Implement the Fibonacci algorithm using the linear approach
-  // YOUR CODE HERE
+  let fSeq = [1];
+  for (let i = 1; i = num; i++){
+    
+  }
   //
 };
 
